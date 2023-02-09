@@ -1,0 +1,196 @@
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content-wrapper">
+			<div class="container-full">
+				<!-- Main content -->
+				<section class="content">
+					<div class="row">
+						<div class="col-12">
+							<div class="box">
+								<div class="box-body">
+									<div class="row">
+
+                                      
+                                      <div class="tab">
+                                        <button class="tablinks" onclick="openCity(event, 'London')">Promedio de huevecillos por manzana positiva</button>
+                                        <button class="tablinks" onclick="openCity(event, 'Paris')">Cantidad de huevecillos en ovitrampas</button>
+										<button class="tablinks" onclick="openCity(event, 'Paris2')">Promedio de huevecillos por ovitrampa positiva</button>
+                                      </div>
+                                      
+                                      <div id="London" class="tabcontent">
+                                        <h3>London</h3>
+                                        <p>London is the capital city of England.</p>
+                                        <div id="chartdiv1"></div>
+                                      </div>
+                                      
+                                      <div id="Paris" class="tabcontent">
+                                        <h3>Paris</h3>
+                                        <p>Paris is the capital of France.</p>
+                                        <div id="chartdiv3"></div>
+                                      </div>
+                                      
+									  <div id="Paris2" class="tabcontent">
+                                        <h3>Paris</h3>
+                                        <p>Paris is the capital of France.</p>
+                                        
+                                      </div>
+                                      
+                                 
+                                      
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="box">
+								<div class="box-body">
+
+									<div class="row">
+
+                                      
+                                        
+                                        
+                                        <div class="tab">
+                                          <button class="tablinks" onclick="openCity(event, 'obregon')">ICP Estatal en la Semana epidemiológica 47</button>
+                                          <button class="tablinks" onclick="openCity(event, 'hermosillo')">ICP por localidad en la Semana epidemiológica 47</button>
+                                          <button class="tablinks" onclick="openCity(event, 'Tokyo')">Manejo de recipientes por localidad</button>
+										
+                                        </div>
+                                        
+                                        <div id="obregon" class="tabcontent">
+                                          <h3>London</h3>
+                                          <p>London is the capital city of England.</p>
+                                          <div id="chartdiv4"></div>
+                                        </div>
+                                        
+                                        <div id="hermosillo" class="tabcontent">
+                                          <h3>Paris</h3>
+                                          <p>Paris is the capital of France.</p> 
+                                          <div id="chartdiv5"></div>
+                                        </div>
+                                        
+                                        <div id="Tokyo" class="tabcontent">
+                                          <h3>Tokyo</h3>
+                                          <p>Tokyo is the capital of Japan.</p>
+                                          <div id="chartdiv6"></div>
+                                        </div>
+
+                                        
+                                        <script>
+                                        function openCity(evt, cityName) {
+                                          var i, tabcontent, tablinks;
+                                          tabcontent = document.getElementsByClassName("tabcontent");
+                                          for (i = 0; i < tabcontent.length; i++) {
+                                            tabcontent[i].style.display = "none";
+                                          }
+                                          tablinks = document.getElementsByClassName("tablinks");
+                                          for (i = 0; i < tablinks.length; i++) {
+                                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                                          }
+                                          document.getElementById(cityName).style.display = "block";
+                                          evt.currentTarget.className += " active";
+                                        }
+                                        </script>
+                                        
+                                          
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12">
+							<div class="box">
+								<div class="box-body">
+
+									<div class="row">
+
+                                      
+                                        
+                                        
+                                        <div class="tab">
+                        
+										  <button class="tablinks" onclick="openCity(event, 'Tokyo2')">Tabla de recipientes por localidad</button>
+                                        </div>
+                                        
+
+										<div id="Tokyo2" class="tabcontent">
+											<h3>Tokyo</h3>
+											<p>Tokyo is the capital of Japan.</p>
+											<div id=""></div>
+										  </div>
+                                        
+                                        <script>
+                                        function openCity(evt, cityName) {
+                                          var i, tabcontent, tablinks;
+                                          tabcontent = document.getElementsByClassName("tabcontent");
+                                          for (i = 0; i < tabcontent.length; i++) {
+                                            tabcontent[i].style.display = "none";
+                                          }
+                                          tablinks = document.getElementsByClassName("tablinks");
+                                          for (i = 0; i < tablinks.length; i++) {
+                                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                                          }
+                                          document.getElementById(cityName).style.display = "block";
+                                          evt.currentTarget.className += " active";
+                                        }
+                                        </script>
+                                        
+                                          
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- /.content -->
+			</div>
+		</div>
+		<!-- /.content-wrapper -->
+
+
+
+        <hr>
+        <h3 class=" mt-30">Tabla</h3>
+        <div class="panel-group panel-group-simple panel-group-continuous" id="accordion3">
+            <div class="panel">
+                <div class="panel-heading" id="question-5">
+                    <a class="panel-title" aria-controls="answer-5" aria-expanded="true"
+                        data-bs-toggle="collapse" href="#answer-5">
+                        Tabla de recipientes por localidad
+                    </a>
+                </div>
+                <div class="panel-collapse collapse" id="answer-5"
+                    aria-labelledby="question-5" data-bs-parent="#accordion3">
+                    <div class="row">
+                        <div class="col-xl-12 col-12">
+                            
+                            <div class="box">
+                                <div class="box-body">
+                                    <div class="box-header no-border pb-0">
+                                        <h4 class="box-title">Tabla de recipientes por localidad7</h4>
+                                    </div>
+                                    <div class="box-body">
+                                        <div id=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        <h2><a href="countries.html">Expancion</a></h2>
+                        <p class="text-primary">
+                            <strong>The best way to prevent illness is to avoid being exposed to this virus.
+                                As there is not vaccine to prevent so you can protect yourself and help
+                                prevent spreading the virus to others if you do as below
+                                instructionThe best way to prevent illness is to avoid being exposed to this virus.
+                                As there is not vaccine to prevent so you can protect yourself and help
+                                prevent spreading the virus to others if you do as below
+                                instruction.The best way to prevent illness is to avoid being exposed to this virus.
+                                As there is not vaccine to prevent so you can protect yourself and help
+                                prevent</strong>
+                        </p>		
+                    </div>
+                </div>
+            </div>
+        </div>

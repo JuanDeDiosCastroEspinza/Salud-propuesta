@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="images/logoNuevo.png">
+
+	<title>Vectores</title>
+
+	<!-- Vendors Style-->
+	<link rel="stylesheet" href="css/vendors_css.css">
+
+	<!-- Style-->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/skin_color.css">
+	<link rel="stylesheet" href="css/footer.css">
+
+</head>
+
+<body class="hold-transition light-skin sidebar-mini theme-primary fixed sidebar-collapse">
+
+	<div class="wrapper">
+		<div id="loader"></div>
+
+		<header class="main-header">
+			<div class="d-flex align-items-center logo-box justify-content-start">
+				<a href="#" class="waves-effect waves-light nav-link rounded d-none d-md-inline-block mx-10"
+					data-toggle="push-menu" role="button">
+					<i class="nav-link-icon mdi mdi-menu text-dark"></i>
+				</a>
+				<!-- Logo -->
+
+				<a href="index.html" class="logo">
+					<!-- logo-->
+
+					<div class="logo-lg">
+						<img src="images/logo-sonora.png" alt="logo">
+					</div>
+				</a>
+			</div>
+			<!-- Header Navbar -->
+			<nav class="navbar navbar-static-top">
+				<!-- Sidebar toggle button-->
+				<div class="app-menu">
+					<ul class="header-megamenu nav">
+						<li class="btn-group nav-item d-md-none">
+							<a href="#" class="waves-effect waves-light nav-link push-btn btn-outline no-border"
+								data-toggle="push-menu" role="button">
+								<img src="images/svg-icon/collapse.svg" class="img-fluid svg-icon" alt="">
+							</a>
+						</li>
+						<li class="btn-group nav-item d-none d-lg-inline-block">
+							<h2><em>Zonas de riesgo</em></h2>
+						</li>
+					</ul>
+				</div>
+
+				<div class="navbar-custom-menu r-side">
+					<!--<ul class="nav navbar-nav">
+						<li class="btn-group nav-item">
+							<a href="#" data-provide="fullscreen"
+								class="waves-effect waves-light nav-link btn-outline no-border full-screen"
+								title="Full Screen">
+								<img src="images/svg-icon/fullscreen.svg" class="img-fluid svg-icon" alt="">
+							</a>
+						</li>
+						<li class="btn-group d-md-inline-flex d-none">
+							<div class="app-menu">
+								<div class="search-bx mx-5">
+									<form>
+										<div class="input-group">
+											<input type="search" class="form-control" placeholder="Search"
+												aria-label="Search" aria-describedby="button-addon2">
+											<div class="input-group-append">
+												<button class="btn" type="submit" id="button-addon3"><img
+														src="images/svg-icon/search.svg" class="img-fluid svg-icon"
+														alt=""></button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</li>
+						<!-- Notifications 
+						<li class="dropdown notifications-menu">
+							<a href="#" class="waves-effect waves-light dropdown-toggle btn-outline no-border"
+								data-bs-toggle="dropdown" title="Notifications">
+								<img src="images/svg-icon/notifications.svg" class="img-fluid svg-icon" alt="">
+							</a>
+							<ul class="dropdown-menu animated bounceIn">
+
+								<li class="header">
+									<div class="p-20">
+										<div class="flexbox">
+											<div>
+												<h4 class="mb-0 mt-0">Notifications</h4>
+											</div>
+											<div>
+												<a href="#" class="text-danger">Clear All</a>
+											</div>
+										</div>
+									</div>
+								</li>
+
+								<li>
+									<!-- inner menu: contains the actual data 
+								</li>
+								<li class="footer">
+									<a href="#">Ver Todo</a>
+								</li>
+							</ul>
+						</li>
+
+
+						<!-- User Account
+						<li class="dropdown user user-menu">
+							<a href="#" class="waves-effect waves-light dropdown-toggle btn-outline no-border"
+								data-bs-toggle="dropdown" title="User">
+								<img src="images/svg-icon/user.svg" class="img-fluid svg-icon" alt="">
+							</a>
+							<ul class="dropdown-menu animated flipInX">
+								<li class="user-body">
+									<a class="dropdown-item" href="#"><i class="ti-user text-muted me-2"></i>
+										Profile</a>
+									<a class="dropdown-item" href="#"><i class="ti-wallet text-muted me-2"></i> My
+										Wallet</a>
+									<a class="dropdown-item" href="#"><i class="ti-settings text-muted me-2"></i>
+										Settings</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#"><i class="ti-lock text-muted me-2"></i> Logout</a>
+								</li>
+							</ul>
+						</li>
+						<!-- Control Sidebar Toggle Button 
+						<li>
+							<a href="#" data-toggle="control-sidebar" title="Setting"
+								class="waves-effect waves-light btn-outline no-border">
+								<img src="images/svg-icon/settings.svg" class="img-fluid svg-icon" alt="">
+							</a>
+						</li>
+
+
+					</ul>-->
+				</div>
+			</nav>
+		</header>
+
+		<aside class="main-sidebar">
+			<!-- sidebar-->
+			<section class="sidebar position-relative">
+				<div class="multinav">
+					<div class="multinav-scroll" style="height: 100%;">
+						<!-- sidebar menu-->
+						<ul class="sidebar-menu" data-widget="tree">
+							<li>
+
+								<a href="index.html" title="Countries">
+									<img src="images/svg-icon/sidebar-menu/apps.svg" class="svg-icon" alt="">
+									<span>Inicio</span>
+								</a>
+							</li>
+							<li>
+								<a href="countries.html" title="Countries">
+									<img src="images/svg-icon/sidebar-menu/pages.svg" class="svg-icon" alt="">
+									<span>Resumen</span>
+								</a>
+							</li>
+							<li>
+								<a href="symptoms.html" title="Symptoms">
+									<img src="images/svg-icon/maps.svg" class="svg-icon" alt="">
+									<span>Mapa</span>
+								</a>
+							</li>
+							<li>
+								<a href="prevention.html" title="Prevention">
+									<img src="images/svg-icon/basic.svg" class="svg-icon" alt="">
+									<span>Entomologia</span>
+								</a>
+							</li>
+							<li>
+								<a href="calidaddelaire.html" title="Prevention">
+									<img src="images/svg-icon/chain.svg" class="svg-icon" alt="">
+									<span>Calidad del aire</span>
+								</a>
+							</li>
+							<li>
+								<a href="actividades.html" title="FAQs">
+									<img src="images/svg-icon/chart.svg" class="svg-icon" alt="">
+									<span>Actividades</span>
+								</a>
+							</li>
+							<li>
+								<a href="jurisdiccion.html" title="FAQs">
+									<img src="images/svg-icon/flag.svg" class="svg-icon" alt="">
+									<span>Jurisdiccio</span>
+								</a>
+							</li>
+							<li>
+								<a href="indexasd.html" title="FAQs">
+									<img src="images/svg-icon/fullscreen.svg" class="svg-icon" alt="">
+									<span>Isla de calor</span>
+								</a>
+							</li>
+							<li>
+								<a href="zonas_de_riesgo.html" title="FAQs">
+									<img src="images/svg-icon/widgets.svg" class="svg-icon" alt="">
+									<span>Zonas de Riesgo</span>
+								</a>
+							</li>
+							<li>
+								<a href="formatos.html" title="FAQs">
+									<img src="images/svg-icon/pencil.svg" class="svg-icon" alt="">
+									<span>Formatos</span>
+								</a>
+							</li>
+							<li>
+								<a href="mecvision.html" title="FAQs">
+									<img src="images/svg-icon/camera.svg" class="svg-icon" alt="">
+									<span>Vision</span>
+								</a>
+							</li>
+							<li>
+								<a href="faqs.html" title="FAQs">
+									<img src="images/svg-icon/verticle.svg" class="svg-icon" alt="">
+									<span>FAQs</span>
+								</a>
+							</li>
+
+						
+
+						</ul>
+					</div>
+				</div>
+			</section>
+			<div class="sidebar-footer">
+				<!-- item-->
+				<a href="javascript:void(0)" class="link" title="" data-original-title="about" data-bs-toggle="modal"
+					data-bs-target="#modal-about"><i class="fa fa-info"></i></a>
+				<!-- item-->
+				<a href="javascript:void(0)" class="link" title="Email"><i class="fa fa-envelope"></i></a>
+				<!-- item-->
+			</div>
+		</aside>
+
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content-wrapper">
+			<div class="container-full">
+				<!-- Main content -->
+				<section class="content">
+					<div class="row">
+						<div class="col-xl-4 col-12">
+							<div class="box">
+								<div class="box-header no-border pb-0">
+									<h4 class="box-title">Sonora Casos Confirmados</h4>
+								</div>
+								<div class="box-body">
+									<div id="world-cases"></div>
+								</div>
+							</div>
+							<div class="box">
+								<div class="box-header no-border pb-0">
+									<h4 class="box-title">Casos de aumento en Sonora</h4>
+								</div>
+								<div class="box-body">
+									<div id="world-daily-cases"></div>
+								</div>
+							</div>
+							<div class="box">
+								<div class="box-header no-border pb-0">
+									<h4 class="box-title">Municipio mas afectado</h4>
+								</div>
+								<div class="box-body">
+									<div id="affected_country"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-8 col-12">
+							<div class="box">
+								<div class="box-body">
+									<div id="chartdiv_2" class="h-500"></div>
+								</div>
+								<div class="box-body bg-lightest m-10">
+									<div class="table-responsive bg-light3 p-10">
+										<table id="example"
+											class="table table-bordered table-hover display nowrap mt-10 w-p100">
+											<thead>
+												<tr>
+													<th>Municipio</th>
+													<th>Confirmados</th>
+													<th>Casos en cada 1k Personas</th>
+													<th>Recuperados</th>
+													<th>Muertes</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td><strong><i
+																class="fs-18 me-5 fa fa-globe text-primary"></i>Sonora
+															Total</strong>
+													</td>
+													<td><strong>24,04,249</strong></td>
+													<td><strong>309.2</strong></td>
+													<td><strong>6,24,725</strong></td>
+													<td><strong>1,65,234</strong></td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td></i>Santa Ana
+													</td>
+													<td>7,70,564</td>
+													<td>2,338.19</td>
+													<td>70,799</td>
+													<td>41,114</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td></i>Bacum</td>
+													<td>1,98,674</td>
+													<td>4,218.1</td>
+													<td>77,357</td>
+													<td>21,238</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>Nogales</td>
+													<td>1,78,972</td>
+													<td>2,970.81</td>
+													<td>47,055</td>
+													<td>23,660</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>Guaymas</td>
+													<td>1,45,184</td>
+													<td>1,746.06</td>
+													<td>83,438</td>
+													<td>4,586</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>San Luis R.C.
+													</td>
+													<td>1,20,067</td>
+													<td>1,807.27</td>
+													<td>—</td>
+													<td>16,060</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td></i>Navojoa</td>
+													<td>1,12,606</td>
+													<td>1,678.78</td>
+													<td>36,578</td>
+													<td>19,718</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td></i>Caborca</td>
+													<td>86,306</td>
+													<td>1,037.89</td>
+													<td>11,976</td>
+													<td>2,017</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>Cananea</td>
+													<td>82,747</td>
+													<td>59.02</td>
+													<td>77,084</td>
+													<td>4,632</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>Huatabampo</td>
+													<td>82,211</td>
+													<td>986.56</td>
+													<td>57,023</td>
+													<td>5,118</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>Empalme</td>
+													<td>42,853</td>
+													<td>292.02</td>
+													<td>3,291</td>
+													<td>361</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>Agua Prieta
+													</td>
+													<td>38,654</td>
+													<td>182.9</td>
+													<td>14,026</td>
+													<td>2,462</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>Etchojoa</td>
+													<td>38,496</td>
+													<td>3,340.38</td>
+													<td>8,757</td>
+													<td>5,683</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>Magdalena</td>
+													<td>35,056</td>
+													<td>923.03</td>
+													<td>11,843</td>
+													<td>1,587</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>Puerto Peñasco
+													</td>
+													<td>32,655</td>
+													<td>1,871.24</td>
+													<td>—</td>
+													<td>3,684</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>Hermosillo
+													</td>
+													<td>27,469</td>
+													<td>3,199.07</td>
+													<td>17,800</td>
+													<td>1,393</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>Nacozari</td>
+													<td>20,206</td>
+													<td>1,966.21</td>
+													<td>610</td>
+													<td>714</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>Cajeme</td>
+													<td>17,265</td>
+													<td>12.69</td>
+													<td>2,547</td>
+													<td>543</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>General
+														Plutarco E.</td>
+													<td>15,628</td>
+													<td>486.38</td>
+													<td>6,811</td>
+													<td>400</td>
+												</tr>
+												<tr data-bs-toggle="modal" data-bs-target=".country-details">
+													<td>Benito Juarez
+													</td>
+													<td>15,251</td>
+													<td>3,098.85</td>
+													<td>—</td>
+													<td>610</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<th>Municipio</th>
+													<th>Confirmados</th>
+													<th>Casos en cada 1k Personas</th>
+													<th>Recuperados</th>
+													<th>Muertes</th>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 						<div class="col-xl-12 col-12">
+							<div class="box">
+								<div class="box-body">
+									<div id="chartdiv_2" class="h-750"></div>
+								</div>
+							</div>
+						</div> -->
+					</div>
+				</section>
+				<!-- /.content -->
+			</div>
+		</div>
+		<!-- /.content-wrapper -->
+
+		<div class="modal center-modal fade" id="modal-about" tabindex="-1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Sobre estos datos</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<h4 class="text-primary">It changes rapidly</h4>
+						<p>Estos datos cambian rápidamente, por lo que lo que se muestra puede estar desactualizado. Es
+							posible que los totales de la tabla no siempre
+							representan una suma exacta. La información sobre los casos notificados también está
+							disponible en World
+							Organización de la salud y sitio WorldoMeters.info.</p>
+
+						<h4 class="text-primary">No incluye todos los casos</h4>
+						<p>Los casos confirmados no son todos los casos. Solo incluyen a las personas que dieron
+							positivo. Reglas de prueba
+							y la disponibilidad varía según el país.</p>
+
+						Updated: April 20, 2020 12:30 (GMT +6)
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade country-details" tabindex="-1">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myLargeModalLabel">Sonora - Casos </h4>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<p class="text-fade mb-0 mt-10"><small>Total de Casos Confirmados</small></p>
+						<h1 class="text-dark my-0">7,70,564 </h1>
+						<ul class="list-inline my-30">
+							<li class="pr-20 pl-0">
+								<h3 class="mb-0">6,58,651</h3>
+								<h4 class="my-0"><small class="text-primary text-uppercase font-weight-500">Casos
+										Activos</small></h4>
+							</li>
+
+							<li class="br-1 bl-1 px-20">
+								<h3 class="mb-0">70,799</h3>
+								<h4 class="my-0"><small
+										class="text-success text-uppercase font-weight-500">Recuperados</small></h4>
+							</li>
+
+							<li class="pl-20">
+								<h3 class="mb-0">41,114</h3>
+								<h4 class="my-0"><small
+										class="text-danger text-uppercase font-weight-500">Muertes</small></h4>
+							</li>
+						</ul>
+						
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-danger text-left" data-bs-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+				<!-- /.modal-content -->
+			</div>
+			<!-- /.modal-dialog -->
+		</div>
+		<!-- /.modal -->
+
+
+		<footer>
+			<div class="container-footer-all">
+				<div class="list-info">
+					<div class="container-footer">
+				
+						<div class="col-sm-2">
+							<!-- col de expancion -->
+						</div>
+
+					  <div class="col-sm-3">
+						<img src="images/logo-sonora.png" href="/" alt="logo gobierno de méxico" class="logo_footer" style="max-width: 90%; margin-left: -27px;   margin-top: 12px;">
+					  </div>
+					  <div class="col-sm-3">
+						<h2>Enlaces</h2>
+						<ul>
+						 <!-- <li><a  href="http://www.participa.gob.mx">Participa</a></li> -->
+						  <li><a href="https://datos.gob.mx/">Datos</a></li>
+						  <li><a href="https://www.gob.mx/publicaciones" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Publicaciones </a></li>
+				
+								  <li><a class="footer" href="http://www.portaltransparencia.gob.mx/pot/directorio/begin.do?method=begin&amp;_idDependencia=12115" id="Transparencia" target="blank" title="Enlace abre en ventana nueva">Portal de Obligaciones de Transparencia</a></li>
+				
+								  <li><a class="footer" href="https://www.infomex.org.mx/gobiernofederal/home.action" id="PNT" target="blank" title="Enlace abre PNT en ventana nueva">PNT</a></li>
+				
+								  <li><a class="footer" href="http://www.inai.org.mx/" id="INAI" target="blank" title="Enlace abre sitio INAI en ventana nueva">INAI</a></li>
+				
+						   </ul>
+					  </div>
+					  <div class="col-sm-3">
+						<h2>¿Qué es gob.mx?</h2>
+						<p>Es el portal único de trámites, información y participación ciudadana.  <a href="/que-es-gobmx" style="text-decoration: none;">Leer más </a></p>
+						<ul>
+				
+						  <li><a href="/temas">Temas</a></li>
+							
+						  <li><a href="/accesibilidad">Declaración de Accesibilidad</a></li>
+						  <li><a href="/privacidadintegral">Aviso de privacidad</a></li>
+						  <li><a href="/privacidadsimplificado">Aviso de privacidad simplificado</a></li>
+						  <li><a href="/terminos">Términos y Condiciones </a></li>
+						  <li><a href="/terminos#medidas-seguridad-informacion">Política de seguridad</a></li>
+						  <li><a class="footer" id="Marco Juridico" href="http://www.ordenjuridico.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Marco jurídico</a></li>
+						  <li><a href="/sitemap">Mapa de sitio</a></li>
+						</ul>
+					  </div>
+					  <div class="col-sm-3">
+						  <h2>Contacto</h2>
+							<a href="mailto:cenaprece@salud.gob.mx"> Dudas e información a cenaprece@salud.gob.mx</a>
+						<p></p>
+						<h2>Síguenos en </h2>
+						<ul class="list-inline">
+						  <li>
+							<a id="Facebook" href="https://www.facebook.com/gobmexico" target="_blank" rel="noopener" class="sendEst share-info footer" title="enlace a facebook abre en una nueva ventana">
+							  <img alt="Facebook" src="https://framework-gb.cdn.gob.mx/landing/img/facebook.png">
+							</a>
+						  </li>
+						  <li>
+							<a id="Twitter" href="https://twitter.com/GobiernoMX" target="_blank" rel="noopener" class="sendEst share-info footer" title="Enlace a twitter abre en una nueva ventana">
+							  <img alt="Twitter" src="https://framework-gb.cdn.gob.mx/landing/img/twitter.png">
+							</a>
+						  </li>
+						</ul>
+					  </div>
+					</div>
+				
+				  </div>
+				  
+				
+				  <div class="container-fluid-footer-pleca">
+					<div class="row">
+					  <div class="col">
+						<p>Gobierno del Estado de Sonora. Dirección: Comonfort y Dr. Paliza S/N, Colonia Centenario, C.P. 83260. Hermosillo, Sonora, México. Teléfonos: Atención Ciudadana (662) 454 0074 y (662) 289 6800, Palacio de Gobierno (662) 289 3800. Correo Electrónico: atencionciudadana@sonora.gob.mx. Todos los derechos reservados. Desarrollado por SCG/SDAT<p>
+					  </div>
+					</div>
+				  </div>
+				  <br>
+			</div>
+		  </footer>
+		<!-- Control Sidebar -->
+		<aside class="control-sidebar">
+
+			<div class="rpanel-title"><span class="pull-right btn btn-circle btn-danger"><i
+						class="ion ion-close text-white" data-toggle="control-sidebar"></i></span> </div>
+			<!-- Create the tabs -->
+			<ul class="nav nav-tabs control-sidebar-tabs">
+				<li class="nav-item"><a href="#control-sidebar-home-tab" data-bs-toggle="tab" class="active"><i
+							class="mdi mdi-message-text"></i></a></li>
+				<li class="nav-item"><a href="#control-sidebar-settings-tab" data-bs-toggle="tab"><i
+							class="mdi mdi-playlist-check"></i></a></li>
+			</ul>
+			<!-- Tab panes -->
+			<div class="tab-content">
+				<!-- Home tab content -->
+				<!-- /.tab-pane -->
+				<!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
+				<div class="control-sidebar-bg"></div>
+			</div>
+			<!-- ./wrapper -->
+
+			<!-- Sidebar -->
+
+
+			<!-- Page Content overlay -->
+
+
+			<!-- Vendor JS -->
+			<script src="js/vendors.min.js"></script>
+			<script src="js/pages/chat-popup.js"></script>
+			<script src="assets/icons/feather-icons/feather.min.js"></script>
+
+			<script src="assets/vendor_components/apexcharts-bundle/irregular-data-series.js"></script>
+			<script src="assets/vendor_components/apexcharts-bundle/dist/apexcharts.js"></script>
+			<script src="https://www.amcharts.com/lib/4/core.js"></script>
+			<script src="https://www.amcharts.com/lib/4/charts.js"></script>
+			<script src="https://www.amcharts.com/lib/4/maps.js"></script>
+			<script src="https://www.amcharts.com/lib/4/geodata/worldLow.js"></script>
+			<script src="https://covid.amCharts.com/data/js/world_timeline.js"></script>
+			<script src="https://covid.amCharts.com/data/js/total_timeline.js"></script>
+			<script src="https://www.amcharts.com/lib/4/geodata/usaLow.js"></script>
+			<script src="https://covid.amCharts.com/data/js/us_timeline.js"></script>
+			<script src="https://covid.amCharts.com/data/js/us_total_timeline.js"></script>
+			<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+			<script src="assets/vendor_components/datatable/datatables.min.js"></script>
+			<script src="https://www.amcharts.com/lib/4/geodata/region/mexico/sonHigh.js"></script>
+			<!-- Master Admin App -->
+			<script src="js/template.js"></script>
+			<script src="js/pages/dashboard2.js"></script>
+			<script src="js/pages/SonoraChart.js"></script>
+
+</body>
+
+</html>

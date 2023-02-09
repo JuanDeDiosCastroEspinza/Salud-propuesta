@@ -1,0 +1,32 @@
+
+
+footer{
+    background:white;
+    color:rgb(41, 19, 19);
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+}
+
+.container-footer{
+    display: flex;
+}
+
+.col-sm-3{
+    max-width: 300px ;
+}
+
+.col-sm-3 a{
+    color:rgb(26, 11, 11);
+}
+
+
+.col-sm-2{
+    max-width: 70px ;
+}
+
+
+
