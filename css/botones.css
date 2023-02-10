@@ -1,0 +1,45 @@
+ /* Estilos para el menú de navegación */
+ 
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+ 
+ li {
+     float: right;
+ }
+ 
+ li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+ /* Estilos para los botones */
+ 
+ .register-button {
+     background-color: #801053;
+     color: white;
+     border: none;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     margin: 2px 1px;
+     cursor: pointer;
+ }
+ 
+ .login-button {
+     background-color: #801053;
+     color: white;
+     border: none;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     margin: 2px 1px;
+     cursor: pointer;
+ }
